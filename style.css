@@ -4,11 +4,24 @@ h1{
     font-weight: 400;
     font-size: 7.5vh;
 }
+nav{
+    margin-bottom: 2vh;
+}
+header p{
+    text-align: left;
+    font-family: "Raleway", serif;
+    margin-right: 16vh;
+}
 #about-me p{
     text-align: left;
     font-family: "Raleway", serif;
     margin-left: 2vh;
-    margin-right: 15vh;
+    margin-right: 16vh;
+}
+#about-me h3{
+    text-align: left;
+    font-family: "Raleway", serif;
+    margin-left: 2vh;
 }
 header{
     margin-top: 4vh;
