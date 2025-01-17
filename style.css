@@ -31,6 +31,13 @@ header p{
     margin-left: 6vh;
     margin-right: 20vh;
 }
+#skills h3{
+    margin-top: 2vh;
+    text-align: left;
+    font-family: "Raleway", serif;
+    margin-left: 6vh;
+}
+
 #about-me h3{
     text-align: left;
     font-family: "Raleway", serif;
@@ -78,7 +85,7 @@ height: 4vw;
 padding-bottom: 1vw;
 padding-left: 2vw;
 padding-right: 2vw;
-margin-top: 1.5vh;
+margin-top: 2.3vh;
 margin-bottom: 5vw;
 margin-left: 42vw;
 color: black;
