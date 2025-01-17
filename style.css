@@ -5,9 +5,14 @@ h1{
     font-size: 12vh;
     margin-bottom: 1.5vh;
 }
-img{
-    width: 20vh;
-    margin: auto;
+#image-block{
+    display: flex;               
+    justify-content: center;     
+    align-items: center;  
+}
+#image-block img{
+    width: 35vh;
+    margin: 0 1.5vh;
 }
 a{
     font-family: "Raleway", serif;
