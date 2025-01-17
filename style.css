@@ -2,7 +2,13 @@ h1{
     text-align: left;
     font-family: "Raleway", serif;
     font-weight: 400;
-    font-size: 7.5vh;
+    font-size: 8vh;
+}
+img{
+    width: 7vh;
+}
+a{
+    font-family: "Raleway", serif;
 }
 nav{
     margin-bottom: 2vh;
@@ -10,20 +16,20 @@ nav{
 header p{
     text-align: left;
     font-family: "Raleway", serif;
-    margin-right: 16vh;
+    margin-right: 20vh;
 }
 #about-me p{
     text-align: left;
     font-family: "Raleway", serif;
-    margin-left: 2vh;
-    margin-right: 16vh;
+    margin-left: 4vh;
+    margin-right: 20vh;
 }
-#about-me h3{
+#about-me h4{
     text-align: left;
     font-family: "Raleway", serif;
-    margin-left: 2vh;
+    margin-left: 4vh;
 }
 header{
-    margin-top: 4vh;
-    margin-left: 2vh;
+    margin-top: 4.2vh;
+    margin-left: 4vh;
 }
