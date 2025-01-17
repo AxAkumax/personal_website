@@ -2,7 +2,7 @@ h1{
     text-align: left;
     font-family: "Raleway", serif;
     font-weight: 400;
-    font-size: 12vh;
+    font-size: 14vh;
     margin-bottom: 1.5vh;
 }
 #image-block{
@@ -31,7 +31,7 @@ header p{
     margin-left: 6vh;
     margin-right: 20vh;
 }
-#about-me h4{
+#about-me h3{
     text-align: left;
     font-family: "Raleway", serif;
     margin-left: 6vh;
@@ -40,3 +40,26 @@ header{
     margin-top: 4.2vh;
     margin-left: 6vh;
 }
+
+@keyframes textCursor{
+    0%{
+      color:black;
+      width: 0%;
+    }
+    100%{
+      width: 57%;
+      color: white;
+      border-right: 0px solid white;
+    }
+}
+
+.text_animationDisplay{
+    color :white;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid black;
+    font-size: 3vw;
+    font-weight: 700;
+    animation: textCursor 2.3s steps(30) forwards;
+    margin-bottom: 1.5vh;
+  }
