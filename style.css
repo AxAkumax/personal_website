@@ -37,7 +37,7 @@ header p{
     margin-right: 20vh;
 }
 #skills h3{
-    margin-top: 3vh;
+    margin-top: 4.2vh;
     text-align: left;
     font-family: "Raleway", serif;
     margin-left: 6vh;
@@ -59,7 +59,7 @@ header{
       width: 0%;
     }
     100%{
-      width: 57%;
+      width: 50%;
       color: black;
       border-right: 0px solid white;
     }
@@ -90,7 +90,7 @@ height: 4vw;
 padding-bottom: 1vw;
 padding-left: 2vw;
 padding-right: 2vw;
-margin-top: 3.2vh;
+margin-top: 4.2vh;
 margin-bottom: 3vh;
 margin-left: 42vw;
 color: #d44c9c;
