@@ -101,16 +101,19 @@ color: white;
 background-color: #d44c9c;
 }
 
-#skills > div {
+#skills > div p {
 font-family: "Raleway", serif;
-font-size: 0.8vw;
-padding-top: 1vw;
-padding-bottom: 1vw;
-padding-left: 2vw;
-padding-right: 2vw;
+font-size: 0.6vw;
+padding-top: 0.5vw;
+padding-bottom: 0.5vw;
+padding-left: 1vw;
+padding-right: 1vw;
 border-style:solid;
 border-width: 0.1vw;
 border-radius: 5vw;
 border-color: #f599b8;
 color: black;
+margin-right: 0.4vh;
+margin-left: 0.4vh;
+margin-bottom: 0.4vh;
 }
