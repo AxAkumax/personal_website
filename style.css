@@ -29,6 +29,7 @@ header p{
 }
 #about-me{
     margin-top: 3vh;
+    margin-bottom: 2vh;
 }
 #about-me p{
     text-align: left;
@@ -59,7 +60,7 @@ header{
       width: 0%;
     }
     100%{
-      width: 50%;
+      width: 49%;
       color: black;
       border-right: 0px solid white;
     }
@@ -78,7 +79,6 @@ header{
     margin-bottom: 1.5vh;
   }
 
-
 #download-button{
 font-family: "Raleway", serif;
 font-size: 1.2vw;
@@ -96,8 +96,21 @@ margin-left: 42vw;
 color: #d44c9c;
 }
 
-
 #download-button:hover{
 color: white;
 background-color: #d44c9c;
+}
+
+#skills > div {
+font-family: "Raleway", serif;
+font-size: 0.8vw;
+padding-top: 1vw;
+padding-bottom: 1vw;
+padding-left: 2vw;
+padding-right: 2vw;
+border-style:solid;
+border-width: 0.1vw;
+border-radius: 5vw;
+border-color: #f599b8;
+color: black;
 }
