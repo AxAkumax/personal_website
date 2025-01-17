@@ -65,3 +65,23 @@ header{
     animation: textCursor 2.3s steps(30) forwards;
     margin-bottom: 1.5vh;
   }
+
+
+#download-button{
+font-family: "Raleway", serif;
+font-size: 1.2vw;
+border-style:solid;
+border-width: 0.1vw;
+border-radius: 5vw;
+padding-top: 1vw;
+height: 4vw;
+padding-bottom: 1vw;
+padding-left: 2vw;
+padding-right: 2vw;
+margin-bottom: 5vw;
+margin-left: 42vw;
+}
+
+#download-button:hover{
+background-color: #bfb09f;
+}
