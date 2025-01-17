@@ -25,6 +25,9 @@ header p{
     font-family: "Raleway", serif;
     margin-right: 20vh;
 }
+#about-me{
+    margin-top: 1.7vh;
+}
 #about-me p{
     text-align: left;
     font-family: "Raleway", serif;
@@ -60,7 +63,7 @@ header{
     text-align: left;
     font-family: "Raleway", serif;
     font-weight: 400;
-    font-size: 14vh;
+    font-size: 12.5vh;
     border-right: 3px solid black;
     animation: textCursor 2.3s steps(30) forwards;
     margin-bottom: 1.5vh;
