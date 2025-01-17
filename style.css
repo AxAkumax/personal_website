@@ -11,7 +11,7 @@ h1{
     align-items: center;  
 }
 #image-block img{
-    width: 35vh;
+    width: 40vh;
     margin: 0 1.5vh;
 }
 a{
@@ -28,15 +28,15 @@ header p{
 #about-me p{
     text-align: left;
     font-family: "Raleway", serif;
-    margin-left: 4vh;
+    margin-left: 6vh;
     margin-right: 20vh;
 }
 #about-me h4{
     text-align: left;
     font-family: "Raleway", serif;
-    margin-left: 4vh;
+    margin-left: 6vh;
 }
 header{
     margin-top: 4.2vh;
-    margin-left: 4vh;
+    margin-left: 6vh;
 }
