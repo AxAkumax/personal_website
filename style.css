@@ -102,6 +102,7 @@ background-color: #d44c9c;
 }
 
 #skills > div p {
+display: inline;
 font-family: "Raleway", serif;
 font-size: 1vw;
 padding-top: 0.5vw;
