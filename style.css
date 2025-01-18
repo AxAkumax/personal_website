@@ -1,6 +1,9 @@
 html{
     background-color: white;
 }
+body{
+    background-color: white;
+}
 .nav-link {
     color: #d44c9c;
 }
@@ -143,7 +146,7 @@ margin-left: 6vh;
   
 /* Spinner Animation */
 .spinner img {
-width: 5vh;
+width: 6vh;
 animation: spin 2s linear infinite;
 }
 
