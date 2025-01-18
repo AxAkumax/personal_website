@@ -140,7 +140,8 @@ margin-left: 6vh;
   }
   
 /* Spinner Animation */
-.spinner svg {
+.spinner img {
+width: 5vh;
 animation: spin 2s linear infinite;
 }
 
@@ -188,7 +189,7 @@ animation: progress-animation 2s linear infinite; /* Smooth animation */
     width: 0%;
 }
 50% {
-    width: 75%;
+    width: 50%;
 }
 100% {
     width: 100%;
