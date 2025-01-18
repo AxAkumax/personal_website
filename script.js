@@ -7,5 +7,5 @@ window.addEventListener("load", () => {
     setTimeout(() => {
       loadingScreen.style.display = "none"; // Hide the loading screen
       mainContent.style.display = "block"; // Show the main content
-    }, 1200); // 1 second delay
+    }, 2000); // 1 second delay
   });

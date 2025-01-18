@@ -139,26 +139,59 @@ margin-left: 6vh;
     z-index: 1000; /* Ensure it stays above all other content */
   }
   
-  /* Spinner Animation */
-  .spinner {
-    width: 50px;
-    height: 50px;
-    border: 5px solid #f3f3f3; 
-    border-top: 5px solid #d44c9c; 
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-  }
-  
-  /* Spinner Keyframes */
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  
-  /* Loading Text */
-  #loading-screen p {
-    font-family: "Raleway", serif;;
-    color: black;
-    font-size: 1.2em;
-    margin-top: 15px;
-  }
+/* Spinner Animation */
+.spinner svg {
+animation: spin 2s linear infinite;
+color: #d44c9c;
+}
+
+/* Keyframes for Spinner */
+@keyframes spin {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}  
+
+/* Loading Text */
+#loading-screen p {
+font-family: "Raleway", serif;;
+color: black;
+font-size: 1.2em;
+margin-top: 15px;
+}
+
+/* Progress Bar Container */
+.progress-bar {
+width: 80%; /* Adjust width of the progress bar */
+height: 1vw; /* Adjust height of the progress bar */
+background-color: #e0e0e0; /* Light gray background for the bar */
+border-radius: 0.5vw;
+margin-top: 1vw; /* Space between the spinner and the progress bar */
+overflow: hidden; /* Ensure no overflow from the progress bar's child */
+position: relative;
+}
+
+/* Progress Animation */
+.progress {
+width: 0%; /* Initial width of the progress bar */
+height: 100%;
+background-color: #f599b8; /* Progress bar color */
+border-radius: inherit;
+animation: progress-animation 2s linear infinite; /* Smooth animation */
+}
+
+/* Keyframes for Progress Animation */
+@keyframes progress-animation {
+0% {
+    width: 0%;
+}
+50% {
+    width: 75%;
+}
+100% {
+    width: 100%;
+}
+}
