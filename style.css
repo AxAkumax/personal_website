@@ -143,10 +143,6 @@ margin-left: 6vh;
 .spinner svg {
 animation: spin 2s linear infinite;
 }
-.spinner{
-    color: #d44c9c;
-    width: 2vh;
-}
 
 /* Keyframes for Spinner */
 @keyframes spin {
@@ -168,7 +164,7 @@ margin-top: 15px;
 
 /* Progress Bar Container */
 .progress-bar {
-width: 40%; /* Adjust width of the progress bar */
+width: 15%; /* Adjust width of the progress bar */
 height: 1vw; /* Adjust height of the progress bar */
 background-color: #e0e0e0; /* Light gray background for the bar */
 border-radius: 0.5vw;
