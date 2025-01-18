@@ -1,4 +1,6 @@
-
+html{
+    background-color: white;
+}
 .nav-link {
     color: #d44c9c;
 }
