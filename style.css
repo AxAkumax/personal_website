@@ -180,7 +180,7 @@ position: relative;
 .progress {
 width: 0%; /* Initial width of the progress bar */
 height: 100%;
-background-color: #f599b8; /* Progress bar color */
+background-color: #f599b8 !important; /* Progress bar color */
 border-radius: inherit;
 animation: progress-animation 2s linear infinite; /* Smooth animation */
 }
