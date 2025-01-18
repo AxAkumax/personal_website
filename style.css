@@ -142,7 +142,10 @@ margin-left: 6vh;
 /* Spinner Animation */
 .spinner svg {
 animation: spin 2s linear infinite;
-color: #d44c9c;
+}
+.spinner{
+    color: #d44c9c;
+    width: 2vh;
 }
 
 /* Keyframes for Spinner */
