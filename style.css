@@ -39,7 +39,7 @@ header p{
     margin-left: 6vh;
     margin-right: 20vh;
 }
-#skills h3{
+h3{
     margin-top: 4.2vh;
     text-align: left;
     font-family: "Raleway", serif;
@@ -109,8 +109,8 @@ font-family: "Raleway", serif;
 font-size: 1vw;
 padding-top: 0.5vw;
 padding-bottom: 0.5vw;
-padding-left: 1vw;
-padding-right: 1vw;
+padding-left: 0.5vw;
+padding-right: 0.5vw;
 border-style:solid;
 border-width: 0.1vw;
 border-radius: 5vw;
@@ -119,10 +119,9 @@ color: black;
 }
 
 #skills > div{
-margin-right: 0.4vh;
-margin-left: 0.4vh;
-margin-bottom: 0.4vh;
-margin-left: 6vh;
+margin-right: 2vh;
+margin-left: 2vh;
+margin-bottom: 2vh;
 }
 
 /* Fullscreen Loading Screen */
