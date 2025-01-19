@@ -169,7 +169,7 @@ margin-top: 15px;
 .progress-bar {
 width: 15%; /* Adjust width of the progress bar */
 height: 1vw; /* Adjust height of the progress bar */
-background-color: #e0e0e0; /* Light gray background for the bar */
+background-color: #e0e0e0 !important; /* Light gray background for the bar */
 border-radius: 0.5vw;
 margin-top: 1vw; /* Space between the spinner and the progress bar */
 overflow: hidden; /* Ensure no overflow from the progress bar's child */
