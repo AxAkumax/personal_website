@@ -187,6 +187,8 @@ animation: progress-animation 2s linear infinite; /* Smooth animation */
 
 progress{
     appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 /* Keyframes for Progress Animation */
