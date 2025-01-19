@@ -185,13 +185,14 @@ border-radius: inherit;
 animation: progress-animation 2s linear infinite; /* Smooth animation */
 }
 
+progress{
+    appearance: none;
+}
+
 /* Keyframes for Progress Animation */
 @keyframes progress-animation {
 0% {
     width: 0%;
-}
-50% {
-    width: 50%;
 }
 100% {
     width: 100%;
