@@ -38,6 +38,7 @@ header p{
     font-family: "Raleway", serif;
     margin-left: 6vh;
     margin-right: 20vh;
+    margin-bottom: 2vh;
 }
 h3{
     margin-top: 4.2vh;
@@ -130,10 +131,10 @@ margin-bottom: 2vh;
 #skills {
 display: flex; 
 flex-wrap: wrap; 
-gap: 1.1vh; 
+gap: 0.8vh; 
 justify-content: center; 
-margin-right: 20vh;
-margin-left: 8vh;
+margin-right: 18vh;
+margin-left: 6vh;
 }
 
 
