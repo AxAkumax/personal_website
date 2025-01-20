@@ -127,8 +127,9 @@ margin-bottom: 2vh;
 #skills {
 display: flex; 
 flex-wrap: wrap; 
-gap: 10px; 
+gap: 1.5vh; 
 justify-content: center; 
+margin-right: 20vh;
 }
 
 
