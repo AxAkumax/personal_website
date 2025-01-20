@@ -47,7 +47,7 @@ h3{
 }
 
 #skills-title{
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
 }
 #about-me h3{
     text-align: left;
@@ -133,6 +133,7 @@ flex-wrap: wrap;
 gap: 1.5vh; 
 justify-content: center; 
 margin-right: 20vh;
+margin-left: 8vh;
 }
 
 
