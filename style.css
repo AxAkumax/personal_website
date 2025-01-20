@@ -119,11 +119,18 @@ color: black;
 }
 
 #skills > div{
-display: inline;
 margin-right: 2vh;
 margin-left: 2vh;
 margin-bottom: 2vh;
 }
+
+#skills {
+display: flex; 
+flex-wrap: wrap; 
+gap: 10px; 
+justify-content: center; 
+}
+
 
 /* Fullscreen Loading Screen */
 
