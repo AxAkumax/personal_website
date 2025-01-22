@@ -4,6 +4,10 @@ html{
 .nav-link {
     color: #d44c9c;
 }
+nav{
+    position: fixed;
+    top: 0;
+}
 
 p{
     font-size: 2.5vh;
@@ -125,6 +129,7 @@ color: white;
 
 #skills > #skill-1 p, #skills > #skill-2 p, #skills > #skill-3 p, #skills > #skill-4 p, #skills > #skill-5 p, #skills > #skill-6 p, #skills > #skill-7 p{
     background-color: #d44c9c;
+    border-color:#d44c9c;
 }
 
 #skills > div{
