@@ -127,7 +127,8 @@ background-color: #f599b8;
 color: white;
 }
 
-#skills > #skill-1 p, #skills > #skill-2 p, #skills > #skill-3 p, #skills > #skill-4 p, #skills > #skill-5 p, #skills > #skill-6 p, #skills > #skill-7 p{
+#skills > #skill-1 p, #skills > #skill-2 p, #skills > #skill-3 p, #skills > #skill-4 p, #skills > #skill-5 p, #skills > #skill-6 p, #skills > #skill-7 p,  #skills > #skill-8 p,
+#skills > #skill-9 p,  #skills > #skill-10 p{
     background-color: #d44c9c;
     border-color:#d44c9c;
 }
