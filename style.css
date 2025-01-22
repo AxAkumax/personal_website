@@ -4,8 +4,8 @@ html{
 .nav-link {
     color: #d44c9c;
 }
-nav{
-    position: fixed;
+.navbar{
+    position: sticky;
     top: 0;
 }
 
