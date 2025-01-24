@@ -83,6 +83,7 @@ header{
     border-right: 3px solid black;
     animation: textCursor 2.3s steps(30) forwards;
     margin-bottom: 1.5vh;
+    margin-top: 3vh;
   }
 
 #download-button{
