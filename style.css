@@ -22,7 +22,7 @@ a{
     font-family: "Raleway", serif;
 }
 nav{
-    margin-bottom: 4vh;
+    margin-bottom: 4vh !important;
 }
 header p{
     text-align: left;
