@@ -4,10 +4,6 @@ html{
 .nav-link {
     color: #d44c9c;
 }
-.navbar{
-    position: sticky;
-    top: 0;
-}
 
 p{
     font-size: 2.5vh;
