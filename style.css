@@ -1,5 +1,6 @@
 html{
     background-color: white;
+    scroll-behavior: smooth;
 }
 .nav-link {
     color: #d44c9c;
