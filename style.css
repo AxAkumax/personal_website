@@ -1,6 +1,7 @@
 html{
     background-color: white;
     scroll-behavior: smooth;
+    font-family: "Raleway", serif;
 }
 .nav-link {
     color: #d44c9c;
@@ -221,4 +222,9 @@ progress{
 100% {
     width: 100%;
 }
+}
+
+#contact{
+    margin-top: 2.5vh;
+    margin-bottom: 1.8vh;
 }
