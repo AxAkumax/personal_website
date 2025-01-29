@@ -232,3 +232,6 @@ form{
     font-family: "Raleway", serif;
     margin-left: 6.3vh;
 }
+label, input{
+    font-family: "Raleway", serif;
+}
