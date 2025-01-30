@@ -238,7 +238,7 @@ label, input{
 }
 
 #image1{
-    animation:  slideIn 2s ease-in-out forwards;
+    animation:  slideIn 3s ease-in-out forwards infinite;
 }
 
 @keyframes slideIn{
@@ -246,6 +246,6 @@ label, input{
         transform: translateX(-100%); /* Start position (off-screen to the left) */
     }
     to {
-        transform: translateX(30%); /* End position  */
+        transform: translateX(25%); /* End position  */
     }
 }
